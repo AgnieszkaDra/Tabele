@@ -1,0 +1,19 @@
+table{
+    border-spacing: 5px;
+}
+.kom{
+    text-align: center;
+    background-color: beige;
+    padding: 15px;
+
+}
+
+.main{
+    font-weight: bold;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
