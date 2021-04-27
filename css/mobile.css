@@ -1,0 +1,59 @@
+
+section{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+table{
+    display: flex;
+    flex-direction: column;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:blue;
+} 
+thead > tr {
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    
+}
+
+  tr th:first-child{
+    align-self: center;
+    justify-self: flex-start;
+    
+    
+    background-color: antiquewhite;
+    
+} 
+
+tr th:last-child{
+    align-self: center;
+    justify-self: flex-end;
+    margin-left: 300px; //??? jak to poprawić
+    background-color: blueviolet;
+}
+ 
+
+
+tr td:first-child{
+    
+    justify-content: left;
+    background-color: aqua;
+    
+}
+
+tr td:last-child{
+    text-align: center;
+    justify-content:center;
+    background-color: blueviolet;
+    align-self: center;
+    
+}
+
+
+
