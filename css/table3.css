@@ -1,0 +1,30 @@
+#t03, #t03 td, #t03 th{
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    
+}
+
+#t03{
+    width: 100%;
+    justify-self: center;
+}
+
+#t03 .caption03{
+    width: 100%;
+    padding: 2rem;
+    background-color: blueviolet;
+    font-size: 2rem;
+}
+
+#t03 td{
+    
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#t03 th{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}

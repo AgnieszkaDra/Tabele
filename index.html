@@ -7,6 +7,7 @@
     <title>Długa tabela</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/table02.css"/>
+    <link rel="stylesheet" href="css/table3.css"/>
 </head>
 <body>
     <section>
@@ -101,17 +102,49 @@
                 </tbody>
                
         </table>
-        <table class="birthday">
-            <caption>Lista urodzin</caption>
+        <table class="birthday" id="t03">
+            <caption class="caption03">Lista urodzin</caption>
             <thead>
                 <tr>
-                  <th>Imię i Nazwisko</th>
-                  <th>Miesiąc</th>
-                  <th>Dzień</th>
-                  <td>Rok</td>
-                  <th>Ulubiony owoc</th>
-                  <th>Telefon</th>
-                  <th>Vege(tak/nie)</th>
+                    <th>
+                        <form action="/action_page.php">
+                            <label for="data">Imię i Nazwisko</label>
+                            <select name="name" id="name">
+                            <option value="volvo">Ola Nowak</option>
+                            <option value="saab">Roma Tara</option>
+                            <option value="opel">Michał Rola</option>
+                            <option value="audi">Michał Drozd</option>
+                            <option value="audi">Ania Afa</option>
+                            <option value="audi">Ania Miła</option>
+                            <option value="audi">Ola Ruda</option>
+                            </select>
+                        </form>
+                    </th>
+                 
+                  <th>
+                    <form action="/action_page.php">
+                        <label for="data">Miesiąc</label>
+                        <select name="month" id="month">
+                        <option value="january">Styczeń</option>
+                        <option value="february">Luty</option>
+                        <option value="march">Marzec</option>
+                        <option value="april">Kwiecień</option>
+                        <option value="may">Maj</option>
+                        <option value="june">Czerwiec</option>
+                        <option value="july">Lipiec</option>
+                        <option value="august">Sierpień</option>
+                        <option value="september">Wrzesień</option>
+                        <option value="octomber">Październik</option>
+                        <option value="november">Listopad</option>
+                        <option value="december">Grudzień</option>
+                        </select>
+                    </form>
+                </th>
+                <th>Dzień</th>
+                <th>Rok</th>
+                <th>Ulubiony owoc</th>
+                <th>Telefon</th>
+                <th>Vege(tak/nie)</th>
                 </tr>
               </thead>
               <tbody>
@@ -170,7 +203,7 @@
                     <td>nie</td>
                 </tr>
                 <tr>
-                    <td>Ola Nowak</td>
+                    <td>Ola Ruda</td>
                     <td>Kwiecień</td>
                     <td>12</td>
                     <td>2020</td>
@@ -180,51 +213,7 @@
                 </tr>
               </tbody>
         </table>
-        <table class="zebra"> 
-            <col>
-            <col>
-            <col>
-            <col>
-            <thead> 
-            <tr> 
-                <th>Last Name</th> 
-                <th>First Name</th> 
-                <th>Email</th> 
-                <th>Due</th> 
-                <th>Web Site</th> 
-            </tr> 
-            </thead> 
-            <tbody> 
-            <tr> 
-                <td>Smith</td> 
-                <td>John</td> 
-                <td>jsmith@gmail.com</td> 
-                <td>$50.00</td> 
-                <td>http://www.jsmith.com</td> 
-            </tr> 
-            <tr> 
-                <td>Bach</td> 
-                <td>Frank</td> 
-                <td>fbach@yahoo.com</td> 
-                <td>$50.00</td> 
-                <td>http://www.frank.com</td> 
-            </tr> 
-            <tr> 
-                <td>Doe</td> 
-                <td>Jason</td> 
-                <td>jdoe@hotmail.com</td> 
-                <td>$100.00</td> 
-                <td>http://www.jdoe.com</td> 
-            </tr> 
-            <tr> 
-                <td>Conway</td> 
-                <td>Tim</td> 
-                <td>tconway@earthlink.net</td> 
-                <td>$50.00</td> 
-                <td>http://www.timconway.com</td> 
-            </tr> 
-            </tbody> 
-        </table> 
+        
     </section>
         
         
