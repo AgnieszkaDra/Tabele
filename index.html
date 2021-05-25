@@ -5,59 +5,229 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Długa tabela</title>
-    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <section>
-        <table class = "table">
-            <caption class = "caption">Tabela2. Stawki za usługi dodatkowe związane ze sprzątaniem grobów</caption>
-            <thead class  = "thead">
+        <table class ="tablecleaning" id="t01">
+            <col>
+            <col>
+            
+            <caption class = "caption">Tabela2. Stawki za usługi dodatkowe związane ze sprzątaniem grobów</caption> 
+            <thead class  ="theadcleaning">
                 <tr>
-                    <th>usługi dodatkowe</th>
-                    <th>stawka</th>
+                    <th class="tablecleaning-th">usługi dodatkowe</th>
+                    <th class="tablecleaning-th">stawka</th>
                 </tr>
             </thead>
 
-            <tbody class = "">
+            <tbody class = "tbodycleaning">
                 <tr>
-                    <td>woskowanie/pastowanie/polerowanie</td>
-                    <td>10-75PLN</td>
+                    <td class="tablecleaning-td">woskowanie/pastowanie/polerowanie</td>
+                    <td class="tablecleaning-td">10-75PLN</td>
                 </tr>
                 <tr>
-                    <td>zapalenie dodatkowe znicza</td>
-                    <td>5PLN + cena zniczy</td>
+                    <td class="tablecleaning-td">zapalenie dodatkowe znicza</td>
+                    <td class="tablecleaning-td">5PLN + cena zniczy</td>
                 </tr>
                 <tr>
-                    <td>złożenie kwiatów</td>
-                    <td>15-20PLN + cena kwiatów</td>
+                    <td class="tablecleaning-td">złożenie kwiatów</td>
+                    <td class="tablecleaning-td">15-20PLN + cena kwiatów</td>
                 </tr>
                 <tr>
-                    <td>pielenie chwastów</td>
-                    <td>15-35PLN</td>
+                    <td class="tablecleaning-td">pielenie chwastów</td>
+                    <td class="tablecleaning-td">15-35PLN</td>
                 </tr>
                 <tr>
-                    <td>usuwanie uschniętych kwiatów gruntowych, chwastów i sadzenie nowyh kwiatów</td>
-                    <td>35PLN + koszt kwiatów</td>
+                    <td class="tablecleaning-td">usuwanie uschniętych kwiatów gruntowych, chwastów i sadzenie nowyh kwiatów</td>
+                    <td class="tablecleaning-td">35PLN + koszt kwiatów</td>
                 </tr>
                 <tr>
-                    <td>odśnieżanie</td>
-                    <td>15-35PLN</td>
+                    <td class="tablecleaning-td">odśnieżanie</td>
+                    <td class="tablecleaning-td">15-35PLN</td>
                 </tr>
                 <tr>
-                    <td>przesłanie zdjęcia pocztą</td>
-                    <td>10-20PLN</td>
+                    <td class="tablecleaning-td">przesłanie zdjęcia pocztą</td>
+                    <td class="tablecleaning-td">10-20PLN</td>
                 </tr>
-                <tr>
-                    <td> Opracowanie włane Sedlak&Sedlak/wynagrodzenia.pl</td>
+                <tr >
+                    <td colspan="2" id="last"> Opracowanie włane Sedlak&Sedlak/wynagrodzenia.pl</td>
                 </tr>
             </tbody>
             
         
           
         </table>
-        
-        
+
+        <table class="table2">
+            <caption class="table__caption">Lody białkowe bez cukru</caption>
+            <tbody class="table__caption__tbody">
+                <tr class="table__caption__tbody__tr">
+                    <th scope="col">NA 100g</th>
+                    <th scope="col">TRADYCYJNE LODY</th>
+                    <th scope="col">DOMOWE LODY BIAŁKOWE</th>
+                    <th scope="col">GOTOWE MIESZANKI LODY BIAŁKOWE</th>
+                </tr>
+                <tr class="table__caption__tbody__tr">
+                    <th scope="row">KALORIE</th>
+                    <td class="td1">200kcal </td>
+                    <td class="td2">160kcal </td>
+                    <td class="td3">443kcal </td>
+                    <div id = "big"></div>
+                    <script src="Js/app.js"></script>
+                <tr>
+                <tr class= "table__caption__tbody__tr">
+                    <th scope="row">BIAŁKO</th>
+                    <td class="td1">3,3g </td>
+                    <td class="td2">26g </td>
+                    <td class="td3">52g </td>
+                <tr>
+                <tr class="table__caption__tbody__tr">
+                    <th scope="row">WĘGLOWODANY</th>
+                    <td class="td1">26g </td>
+                    <td class="td2">19g </td>
+                    <td class="td3">37g </td>
+                <tr>
+                
+                <tr class="table__caption__tbody__tr">
+                    <th scope="row">TŁUSZCZ</th>
+                    <td class="td1">26g </td>
+                    <td class="td2">19g </td>
+                    <td class="td3">37g </td>
+                <tr>
+                
+                 
+                </tbody>
+               
+        </table>
+        <table class="birthday">
+            <caption>Lista urodzin</caption>
+            <thead>
+                <tr>
+                  <th>Imię i Nazwisko</th>
+                  <th>Miesiąc</th>
+                  <th>Dzień</th>
+                  <td>Rok</td>
+                  <th>Ulubiony owoc</th>
+                  <th>Telefon</th>
+                  <th>Vege(tak/nie)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ola Nowak</td>
+                  <td>Grudzień</td>
+                  <td>12</td>
+                  <td>1956</td>
+                  <td>kiwi</td>
+                  <td>678980677</td>
+                  <td>tak</td>
+                </tr>
+                <tr>
+                  <td>Roma Tara</td>
+                  <td>Listopad</td>
+                  <td>16</td>
+                  <td>1988</td>
+                  <td>banan</td>
+                  <td>890789000</td>
+                  <td>nie</td>
+                </tr>
+                <tr>
+                    <td>Michał Rola</td>
+                    <td>Lipiec</td>
+                    <td>02</td>
+                    <td>1992</td>
+                    <td>banan</td>
+                    <td>890768900</td>
+                    <td>tak</td>
+                </tr>
+                <tr>
+                    <td>Michał Drozd</td>
+                    <td>Styczeń</td>
+                    <td>16</td>
+                    <td>1689</td>
+                    <td>jabłko</td>
+                    <td>890789566</td>
+                    <td>tak</td>
+                </tr>
+                <tr>
+                    <td>Ania Afa</td>
+                    <td>Luty</td>
+                    <td>16</td>
+                    <td>1990</td>
+                    <td>jabłko</td>
+                    <td>567456378</td>
+                    <td>nie</td>
+                </tr>
+                <tr>
+                    <td>Ania Miła</td>
+                    <td>Marzec</td>
+                    <td>09</td>
+                    <td>2014</td>
+                    <td>kiwi</td>
+                    <td></td>
+                    <td>nie</td>
+                </tr>
+                <tr>
+                    <td>Ola Nowak</td>
+                    <td>Kwiecień</td>
+                    <td>12</td>
+                    <td>2020</td>
+                    <td></td>
+                    <td></td>
+                    <td>nie</td>
+                </tr>
+              </tbody>
+        </table>
+        <table class="zebra"> 
+            <col>
+            <col>
+            <col>
+            <col>
+            <thead> 
+            <tr> 
+                <th>Last Name</th> 
+                <th>First Name</th> 
+                <th>Email</th> 
+                <th>Due</th> 
+                <th>Web Site</th> 
+            </tr> 
+            </thead> 
+            <tbody> 
+            <tr> 
+                <td>Smith</td> 
+                <td>John</td> 
+                <td>jsmith@gmail.com</td> 
+                <td>$50.00</td> 
+                <td>http://www.jsmith.com</td> 
+            </tr> 
+            <tr> 
+                <td>Bach</td> 
+                <td>Frank</td> 
+                <td>fbach@yahoo.com</td> 
+                <td>$50.00</td> 
+                <td>http://www.frank.com</td> 
+            </tr> 
+            <tr> 
+                <td>Doe</td> 
+                <td>Jason</td> 
+                <td>jdoe@hotmail.com</td> 
+                <td>$100.00</td> 
+                <td>http://www.jdoe.com</td> 
+            </tr> 
+            <tr> 
+                <td>Conway</td> 
+                <td>Tim</td> 
+                <td>tconway@earthlink.net</td> 
+                <td>$50.00</td> 
+                <td>http://www.timconway.com</td> 
+            </tr> 
+            </tbody> 
+        </table> 
     </section>
+        
+        
+   
 
     
 </body>
