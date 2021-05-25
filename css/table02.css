@@ -1,0 +1,50 @@
+#table2, #table2 th, #table2 td, #table2 tr{
+    border: 2px solid black;
+    background-color: azure;
+    width: 50%;
+    justify-self: center;
+   
+}
+
+#table1{
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    background-color:yellow;
+    
+}
+.table__caption{
+    font-size: larger;
+   background-color: blueviolet;
+}
+#table2 td{
+    text-align: center;
+}
+
+
+.table__caption__tbody{
+    margin-top: 10px;
+    background-color: cadetblue;
+}
+
+.table__caption{
+    margin-top: 10px;
+}
+
+.table__caption__tbody__tr > th:nth-child(1) {
+    color:blue;
+}
+
+.table__caption__tbody__tr > th + td{
+    color: gold;
+}
+
+.table__caption__tbody__tr > th + td + .td2 {
+    color:crimson;
+}
+
+.table__caption__tbody__tr > th+ td + .td2 + .td3{
+    color: green;
+}
+
+    
